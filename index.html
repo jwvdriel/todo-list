@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List</title>
+        <!-- personal stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <!-- google fonts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="main-section">
+            <header class="main-heading">
+                <h1>task list  <span class="date"></span></h1>
+            </header>
+            <main class="main-content">
+                <input
+                    type="text"
+                    id="task-input"
+                    placeholder="Welke taak wilt u toevoegen"
+                />
+                <button type="submit" id="add-task">add task</button>
+            </main>
+        </section>
+        <ul id="task-list">
+           
+        </ul>
+
+        <script src="script.js"></script>
+    </body>
+</html>
